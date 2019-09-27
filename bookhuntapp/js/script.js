@@ -13,7 +13,7 @@ function bookSearch(){
    fetch(url)
    .then((response) =>  response.json())
    .then((data) => {
-        let result = `<h2  class ="hide">items</h2>`;
+        let result = `<h3  class ="hide">items</h2>`;
         data.items.forEach(function(item){
             result += `
             <div id='card'>
